@@ -51,19 +51,3 @@ const calculatePayroll = employees =>
 const createEmployeeRecords = arr => arr.map(arr => createEmployeeRecord(arr));
 const findEmployeeByFirstName = (src, name) =>
   src.find(e => e.firstName === name);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
